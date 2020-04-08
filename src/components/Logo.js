@@ -6,7 +6,7 @@ function Logo({ page }) {
       {page === 'home' ? (
         <>
           <p className="text-page">Full Stack development</p>
-          <p className="text-feature">
+          <p className="text-feature fix-logo">
             <span className="by">by</span>mark
           </p>
         </>

@@ -20,7 +20,6 @@ h3 {
 .me-img {
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  margin-left: 3em;
 }
 .topgun {
   border-radius: 2%;
@@ -97,6 +96,9 @@ a:hover {
 .card {
   margin: 2em auto;
   width: 80%;
+}
+.fix-logo {
+  margin-right: 0.2em;
 }
 
 @media screen and (max-width: 500px) {
