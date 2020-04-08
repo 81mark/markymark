@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Movie Rater Demo</title>
+
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css" />
+  <link rel="icon" type="icon/ico" href="favicon.ico" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <ion-app>
+    <ion-header>
+      <ion-toolbar color="tertiary">
+        <ion-title>
+          Movie Rater
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size-md="6" offset-md="3">
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>New Rating</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <ion-item>
+                  <ion-label position="floating" color="tertiary">Movie Title</ion-label>
+                  <ion-input type="text" id="input-reason" class="capitalize"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label position="floating" color="tertiary">Movie Rating 1-5</ion-label>
+                  <ion-input type="number" id="input-amount"></ion-input>
+                </ion-item>
+                <div margin-vertical text-right>
+                  <ion-button fill="outline" color="danger" id="btn-cancel">
+                    <ion-icon slot="start" name="close"></ion-icon>Clear
+                  </ion-button>
+                  <ion-button color="tertiary" id="btn-confirm">
+                    <ion-icon slot="start" name="add"></ion-icon>Add Rating
+                  </ion-button>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size-md="6" offset-md="3">
+            <ion-list id="movies-list"></ion-list>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+    <ion-alert-controller></ion-alert-controller>
+  </ion-app>
+  <link rel="stylesheet" href="style.css" />
+  <script src="./app.js"></script>
+</body>
+
+</html>

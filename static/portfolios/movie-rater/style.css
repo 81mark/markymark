@@ -1,0 +1,14 @@
+.enteredReason {
+    font-size: x-large;
+    float: left;
+    width: 50%;
+    text-align: left;
+    text-transform: capitalize; 
+}
+.stars {
+    font-size: x-large;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.capitalize { text-transform: capitalize; }
