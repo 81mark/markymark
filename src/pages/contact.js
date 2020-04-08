@@ -20,22 +20,22 @@ const ContactPage = () => (
         <h3 className="uk-card-title fancy-font">
           Don't worry... its not too late to back out yet!
         </h3>
-        <form
-          className="card"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          action="/success"
-        >
+        <form className="card" name="contact" method="POST" data-netlify="true">
           <fieldset className="uk-fieldset">
             <div className="uk-margin">
               <span role="img" aria-label="Your name">
-                <input className="uk-input" type="text" placeholder="😇 Name" />
+                <input
+                  name="Name"
+                  className="uk-input"
+                  type="text"
+                  placeholder="😇 Name"
+                />
               </span>
             </div>
             <div className="uk-margin">
               <span role="img" aria-label="Your email">
                 <input
+                  name="Email"
                   className="uk-input"
                   type="text"
                   placeholder="📧 E-mail"
@@ -45,6 +45,7 @@ const ContactPage = () => (
             <div className="uk-margin">
               <span role="img" aria-label="Your message">
                 <textarea
+                  name="Message"
                   className="uk-textarea"
                   rows="4"
                   placeholder="💬 Message"
