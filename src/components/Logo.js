@@ -13,7 +13,7 @@ function Logo({ page }) {
       ) : (
         <>
           <p className="text-page">Full Stack development</p>
-          <p className="text-feature">
+          <p className="text-feature fix-logo">
             <a href="/" title="Go Home">
               <span className="by">by</span>mark
             </a>

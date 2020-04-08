@@ -37,7 +37,8 @@ h3 {
   color: white;
 }
 .container-home {
-  height: calc(100vh - 5em);
+  height: calc(var(--vh, 1vh) * 100);
+  /* height: calc(100vh - 5em); above fix for toolbar */
 }
 .container-page {
   min-height: calc(100vh - 5em);
