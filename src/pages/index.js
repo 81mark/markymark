@@ -4,10 +4,7 @@ import Logo from '../components/Logo.js';
 import Layout from '../components/layout';
 import Me from '../components/Me';
 import SEO from '../components/seo';
-document.documentElement.style.setProperty(
-  '--vh',
-  `${window.innerHeight / 100}px`
-);
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Full Stack development by Mark" />
