@@ -58,7 +58,7 @@ const ContactPage = () => (
                 ></textarea>
               </span>
             </div>
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <input
               className="uk-button button uk-width-1-1"
               type="submit"
