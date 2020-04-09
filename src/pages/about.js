@@ -65,7 +65,7 @@ const AboutPage = () => (
           </h3>
           <p>
             <strong>Technologies</strong> I work with: <br />
-            Javascript, PHP, NpodeJS, Express, Mongo, MySQL, React, Vue, Gatsby,
+            Javascript, PHP, NodeJS, Express, Mongo, MySQL, React, Vue, Gatsby,
             HTML, CSS, Progressive Web Apps, Ionic, Photoshop, Figma,
             Illustrator plus some more that are not worth listing... I did tell
             you this was boring... right?
