@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "markymark",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "My Portfolio Website built on Gatsby, React, Contentful & hosted on Netlify",
+  "version": "1.0.0",
+  "author": "Mark Fernandez",
   "dependencies": {
     "dotenv": "^8.2.0",
     "gatsby": "^2.20.12",
@@ -35,8 +35,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",

@@ -37,7 +37,7 @@ h3 {
   color: white;
 }
 .container-home {
-  height: calc(100vh - 5em);
+  height: calc(100vh - 6em);
 }
 .container-page {
   min-height: calc(100vh - 5em);
@@ -85,7 +85,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 5em;
+  height: 6em;
 }
 .text-feature a,
 .text-feature a:hover,
@@ -121,6 +121,13 @@ a:hover {
     font-size: smaller;
   }
 }
+/* 👀 Landscape fix layout on home screen mobiles 👀 */
+@media screen and (max-width: 850px) and (orientation: landscape) {
+  .container-home {
+    height: auto;
+  }
+}
+
 /* Hide me on smaller screens home page */
 @media screen and (max-width: 400px) {
   .me-img {
