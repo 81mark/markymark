@@ -53,11 +53,11 @@ const ContactPage = () => (
               </span>
             </div>
 
-            <button className="uk-button button uk-width-1-1" type="submit">
-              <span role="img" aria-label="Send">
-                👌 Send
-              </span>
-            </button>
+            <input
+              className="uk-button button uk-width-1-1"
+              type="submit"
+              value="👌 Send"
+            />
           </fieldset>
         </form>
         <a
