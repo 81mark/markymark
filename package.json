@@ -2,7 +2,7 @@
   "name": "markymark",
   "private": true,
   "description": "My Portfolio Website built on Gatsby, React, Contentful & hosted on Netlify",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Mark Fernandez",
   "dependencies": {
     "dotenv": "^8.2.0",
