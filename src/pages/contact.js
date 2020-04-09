@@ -20,7 +20,13 @@ const ContactPage = () => (
         <h3 className="uk-card-title fancy-font">
           Don't worry... its not too late to back out yet!
         </h3>
-        <form className="card" name="contact" method="POST" data-netlify="true">
+        <form
+          className="card"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify
+        >
           <fieldset className="uk-fieldset">
             <div className="uk-margin">
               <span role="img" aria-label="Your name">
