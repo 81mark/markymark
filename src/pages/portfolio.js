@@ -54,7 +54,7 @@ const PortfolioPage = ({ data }) => {
 
 export const pageQuery = graphql`
   query {
-    allContentfulPortfolio(sort: { fields: [customOrder], order: ASC }) {
+    allContentfulPortfolio(sort: { fields: [customOrder], order: DESC }) {
       edges {
         node {
           title
